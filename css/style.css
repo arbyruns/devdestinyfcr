@@ -63,6 +63,19 @@ h1 {
 	margin-right: 0;
 }
 
+.article-wrapper {
+	border: 1px dotted #7A7A7A;
+	background-color: #000000;
+}
+.article-image {
+	display: inline-block;
+	width: 30%;
+}
+.article-content {
+	display: inline-block;
+	width: 65%;
+}
+
 @media all and (max-width: 768px) {
 	#content-area {
 		background-color: rgba(0,0,0,0.8);
