@@ -81,16 +81,25 @@ h1 {
 	background: url("../i/fcrcrop.png") center center no-repeat;
 	height: 180px;
 	width: 340px;
+	max-width: 45%;
 }
 .article-content {
 	display: inline-block;
 	color: #FFFFFF;
 	margin-left: 3%;
 	vertical-align: top;
+	max-width: 50%;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	max-height: 180px;
 }
 .article-date {
 	color: #AAAAAA;
 	font-size: 0.9em;
+	margin-bottom: 0;
+}
+.article-content h2 {
+	margin-top: 0;
 }
 
 #archives {
@@ -105,5 +114,15 @@ h1 {
 	#content-area {
 		background-color: rgba(0,0,0,0.8);
 		margin-bottom: 0px;
+	}
+	.article-image {
+		display: block;
+		width: 100%;
+		max-width: 100%;
+	}
+	.article-content {
+		display: block;
+		width: 100%;
+		max-width: 100%;
 	}
 }
