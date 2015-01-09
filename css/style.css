@@ -5,11 +5,9 @@ html {
   -o-background-size: cover;
   background-size: cover;
 }
-
 body {
 	background-color: transparent;
 }
-
 a {
 	color: #929292;
 	text-decoration: none;
@@ -30,22 +28,18 @@ a:active {
 	color: #FFFFFF;
 	text-decoration: none;
 }
-
 h1 {
 	color: #FFFFFF;
 	margin-top: 4%;
 	margin-bottom: 4%;
 }
-
 #content-area {
 	background-color: rgba(0,0,0,0.8);
 	margin-bottom: 5%;
 }
-
 #content-head {
 	margin-top: 2%;
 }
-
 .content-separator {
 	margin-top: 2%;
 	height: 1px;
@@ -67,7 +61,6 @@ h1 {
 #content-navbar a:last-child {
 	margin-right: 0;
 }
-
 .article-wrapper {
 	border: 1px dotted #7A7A7A;
 	background-color: #000000;
@@ -101,7 +94,6 @@ h1 {
 .article-content h2 {
 	margin-top: 0;
 }
-
 #archives {
 	text-align: right;
 	margin-bottom: 5%;
@@ -126,5 +118,17 @@ h1 {
 		max-width: 100%;
 		margin-left: 0;
 		max-height: 300px;
+	}
+	#site-banner {
+		display: block;
+		width: 100%;
+	}
+	#content-navbar {
+		display: block;
+		width: 100%;
+		margin-top: 2%;
+	}
+	#content-navbar a {
+		margin-right: 2.7%;
 	}
 }
