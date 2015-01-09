@@ -131,4 +131,8 @@ h1 {
 	#content-navbar a {
 		margin-right: 2.4%;
 	}
+	.content-separator {
+		margin-left: 0px;
+		margin-right: 0px;
+	}
 }
