@@ -27,6 +27,11 @@ a:active {
 	text-decoration: none;
 }
 
+h1 {
+	color: #FFFFFF;
+	margin-top: 4%;
+}
+
 #content-area {
 	background-color: rgba(0,0,0,0.8);
 	margin-bottom: 5%;
