@@ -74,17 +74,16 @@ h1 {
 	margin-bottom: 5%;
 	margin-left: 5%;
 	margin-right: 5%;
-}
-.article-wrapper:last-child {
-	margin-bottom: 0;
+	padding: 1%;
 }
 .article-image {
 	display: inline-block;
-	width: 30%;
+	background: url("../i/fcrcrop.png") center center no-repeat;
 }
 .article-content {
 	display: inline-block;
-	width: 65%;
+	width: 55%;
+	color: #FFFFFF;
 }
 
 #archives {
