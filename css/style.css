@@ -11,5 +11,13 @@ body {
 }
 
 #content-area {
-	background-color: rgba(42,42,42,0.8);
+	background-color: rgba(0,0,0,0.8);
+	margin-bottom: 5%;
+}
+
+@media all and (max-width: 768px) {
+	#content-area {
+		background-color: rgba(0,0,0,0.8);
+		margin-bottom: 0px;
+	}
 }
