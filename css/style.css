@@ -81,6 +81,13 @@ h1 {
 	max-height: inherit;
 }
 
+.post-image {
+	display: inline-block;
+	
+	height: 180px;
+	width: 340px;
+	max-width: 45%;
+}
 
 .article-wrapper {
 	border: 1px dotted #7A7A7A;
