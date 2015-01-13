@@ -130,6 +130,11 @@ h1 {
 	font-size: 2em;
 }
 
+.panel-default{
+	background-color: #FFFFFF;
+	
+}
+
 @media all and (max-width: 768px) {
 	#content-area {
 		background-color: rgba(0,0,0,0.8);
