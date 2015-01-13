@@ -165,6 +165,10 @@ margin-bottom:1px
 border: #7A7A7A;
 }
 
+.pager li>a:hover{
+background-color: rgba(115, 122, 128,0.5);
+}
+
 @media all and (max-width: 768px) {
 	#content-area {
 		background-color: rgba(0,0,0,0.8);
