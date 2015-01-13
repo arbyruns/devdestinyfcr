@@ -156,6 +156,10 @@ img{
 	height: auto;
 	}
 
+.pager li>a{
+
+border: #7A7A7A;
+}
 
 @media all and (max-width: 768px) {
 	#content-area {
