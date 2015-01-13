@@ -156,8 +156,12 @@ img{
 	height: auto;
 	}
 
+.pager{
+margin-top:1px;
+margin-bottom:1px
+}
+	
 .pager li>a{
-
 border: #7A7A7A;
 }
 
