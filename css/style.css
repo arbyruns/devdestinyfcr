@@ -132,6 +132,7 @@ h1 {
 
 .panel-default{
 	background-color: #FFFFFF;
+	color:black;
 }
 
 .thumbnail{
@@ -177,6 +178,13 @@ background-color: rgba(115, 122, 128,0.5);
     left: auto;
     right: 0;
 }
+
+.panel-default{
+border-color:#ddd;
+color:#333;
+}
+
+
 
 
 @media all and (max-width: 768px) {
