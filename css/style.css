@@ -276,13 +276,16 @@ margin-bottom:0px;
 		max-height: 300px;
 	}
 	
-	.about-content {
-		display: block;
-		width: 100%;
-		max-width: 100%;
-		margin-left: 0;
-		max-height: 300px;
-	}
+.about-content {
+	display: inline-block;
+	color: #FFFFFF;
+	margin-left: 3%;
+	vertical-align: top;
+	max-width: 50%;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	max-height: 180px;
+}
 	
 	#site-banner {
 		display: block;
