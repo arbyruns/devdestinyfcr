@@ -100,10 +100,9 @@ h1 {
 
 .article-image{
 	display: inline-block;
-	background: url("../i/FCR_Icons/fcr3.jpg") center center no-repeat;
 	height: 180px;
 	width: 340px;
-	max-width: 45%;
+	max-width: 50%;
 }
 
 .article-image1{
