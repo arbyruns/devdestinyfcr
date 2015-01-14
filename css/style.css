@@ -98,6 +98,15 @@ h1 {
 	padding: 1%;
 }
 
+.about-image{
+	display: inline-block;
+	background: url("..i/about.jpg") center center no-repeat;
+	height: 180px;
+	width: 340px;
+	max-width: 45%;
+}
+
+
 .article-image1{
 	display: inline-block;
 	background: url("../i/FCR_Icons/fcr3.jpg") center center no-repeat;
@@ -129,19 +138,6 @@ h1 {
 	width: 340px;
 	max-width: 45%;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 .article-content {
@@ -282,9 +278,6 @@ margin-bottom:0px;
 	margin-left: 3%;
 	vertical-align: top;
 	max-width: 50%;
-	overflow: hidden;
-	text-overflow: ellipsis;
-	max-height: 180px;
 }
 	
 	#site-banner {
