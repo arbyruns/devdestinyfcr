@@ -39,14 +39,33 @@
 					</div>
 					<div class="col-md-10">
 						<img src="i/banner.png" width="40%" id="site-banner" />
-						<div id="content-navbar">
-							<a href='index.html'>Reports</a>
-							<a href='getting_started.html'>Getting Started</a>
-							<a href='#'>Resources</a>
-							<a href='about.html'>About</a>
+						<div id="content-navbar" >
+							<!-- Collapse menu -->
+							<button class = "navbar-toggle" data-toggle ="collapse" data-target = ".navHeaderCollapse"><i class="fa fa-bars fa-lg fa-inverse"></i>
+							</button>
+							<!-- To be collapse-->
+							<div  class = "collapse navbar-collapse navHeaderCollapse">						
+								<a href='index.html'>Reports</a>
+								<a href='getting_started.html'>Getting Started</a>
+								<a href = '#' class="dropdown-toggle" data-toggle="dropdown">Resources <span class="caret"></span></a>
+									<ul class="dropdown-menu pull-right" role="menu">
+										<li><a href="http://www.reddit.com/r/destinythegame">/r/destinythegame</a></li>
+										<li><a href="http://www.destinylfg.net">DestinyLFG</a></li>
+										<li><a href="http://www.destinypublicevents.com/">Public Events</a></li>
+										<li><a href="http://destinydb.com/">Destiny DB</a></li>
+										<li><a href="http://destinytracker.com/">Destiny Tracker</a></li>
+										<li><a href="http://firetea.ms/">Firetea.ms</a></li>
+										<li><a href="http://www.the100.io/">The 100</a></li>
+										<li><a href="http://destinystatus.com/">Destiny Status</a></li>
+										<li><a href="http://destinyghosthunter.net/index.php">Destiny Ghost Hunter</a></li>
+										<li><a href="http://destinyexotics.com/">Destiny Exotics</a></li>
+										<li><a href="http://whereisxur.com/">Where Is Xur</a></li>	
+									</ul>		
+								<a href='about.html'>About</a>
+							</div>
 						</div>
-					</div>
 					<div class="col-md-1 .hidden-xs .hidden-sm">
+					</div>
 					</div>
 				</div>
 				<!-- Header separator -->
