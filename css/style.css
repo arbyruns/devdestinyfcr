@@ -97,6 +97,7 @@ h1 {
 	margin-right: 5%;
 	padding: 1%;
 }
+<<<<<<< HEAD
 .article-image1 {
 	display: inline-block;
 	background: url("../i/FCR_Icons/fcr3.jpg") center center no-repeat;
@@ -122,13 +123,15 @@ h1 {
 }
 
 .article-image4{
+=======
+.article-image {
+>>>>>>> parent of d54a605... image changes
 	display: inline-block;
 	background: url("../i/FCR_Icons/fcr7.jpg") center center no-repeat;
 	height: 180px;
 	width: 340px;
 	max-width: 45%;
 }
-
 .article-content {
 	display: inline-block;
 	color: #FFFFFF;
