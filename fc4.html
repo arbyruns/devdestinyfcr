@@ -34,19 +34,38 @@
 			<!-- content area -->
 			<div class="col-md-8 col-xs-12" id="content-area">
 				<!-- Header of content area -->
-				<div class="row" id="content-head">
+								<div class="row" id="content-head">
 					<div class="col-md-1 .hidden-xs .hidden-sm">
 					</div>
 					<div class="col-md-10">
 						<img src="i/banner.png" width="40%" id="site-banner" />
-						<div id="content-navbar">
-							<a href='index.html'>Reports</a>
-							<a href='getting_started.html'>Getting Started</a>
-							<a href='#'>Resources</a>
-							<a href='about.html'>About</a>
+						<div id="content-navbar" >
+							<!-- Collapse menu -->
+							<button class = "navbar-toggle" data-toggle ="collapse" data-target = ".navHeaderCollapse"><i class="fa fa-bars fa-lg fa-inverse"></i>
+							</button>
+							<!-- To be collapse-->
+							<div  class = "collapse navbar-collapse navHeaderCollapse">						
+								<a href='index.html'>Reports</a>
+								<a href='getting_started.html'>Getting Started</a>
+								<a href = '#' class="dropdown-toggle" data-toggle="dropdown">Resources <span class="caret"></span></a>
+									<ul class="dropdown-menu pull-right" role="menu">
+										<li><a href="http://www.reddit.com/r/destinythegame">/r/destinythegame</a></li>
+										<li><a href="http://www.destinylfg.net">DestinyLFG</a></li>
+										<li><a href="http://www.destinypublicevents.com/">Public Events</a></li>
+										<li><a href="http://destinydb.com/">Destiny DB</a></li>
+										<li><a href="http://destinytracker.com/">Destiny Tracker</a></li>
+										<li><a href="http://firetea.ms/">Firetea.ms</a></li>
+										<li><a href="http://www.the100.io/">The 100</a></li>
+										<li><a href="http://destinystatus.com/">Destiny Status</a></li>
+										<li><a href="http://destinyghosthunter.net/index.php">Destiny Ghost Hunter</a></li>
+										<li><a href="http://destinyexotics.com/">Destiny Exotics</a></li>
+										<li><a href="http://whereisxur.com/">Where Is Xur</a></li>	
+									</ul>		
+								<a href='about.html'>About</a>
+							</div>
 						</div>
-					</div>
 					<div class="col-md-1 .hidden-xs .hidden-sm">
+					</div>
 					</div>
 				</div>
 				<!-- Header separator -->
@@ -66,12 +85,13 @@
 						<h1>REPORTS</h1>							
 						<div class="post-wrapper">
 							<div class="post-content">
-							<nav>
-							  <ul class="pager">
-								<li><a href="fc3.html">Previous</a></li>
-								<li><a href="fc5.html">Next</a></li>
-							  </ul>
-							</nav>							
+								<nav>
+								  <ul class="pager">
+									<h3 class="previous"><a href="fc3.html">Older</a></h3>
+									<h3 class="next"><a href="fc5.html">Newer</a></h3>
+								  </ul>
+								  <hr>
+								</nav>						
 								<p class="article-date">1/3 - 1/9 2015</p>
 								<h2>Filthy Casual Report</h2>
 								<!--Insert MD class from Reddit post-->
@@ -155,6 +175,6 @@
 		</div>
 	</div>
 
-	<script type="text/javascript" src="scripts.min.js"></script>
+	<script type="text/javascript" src="js/scripts.min.js"></script>
 </body>
 </html>
