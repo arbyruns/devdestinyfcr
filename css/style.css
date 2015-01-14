@@ -184,7 +184,10 @@ border-color:#ddd;
 color:#333;
 }
 
-
+.navbar-toggle{
+margin-top:0px;
+margin-bottom:0px;
+}
 
 
 @media all and (max-width: 768px) {
