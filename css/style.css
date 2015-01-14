@@ -214,6 +214,15 @@ background-color: rgba(115, 122, 128,0.5);
     left: auto;
     right: 13px;
 }
+
+.open>.dropdown-menu{
+background-color:rgba(42, 40, 40, 0.8);
+}
+
+.dropdown-menu>li>a{
+color:#fff;
+}
+
 .pull-right .dropdown-menu {
     left: auto;
     right: 0;
