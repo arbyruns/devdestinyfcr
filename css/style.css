@@ -221,6 +221,9 @@ background-color: rgba(115, 122, 128,0.5);
 
 .open>.dropdown-menu{
 background-color:rgba(43, 43, 43, 1);
+right: 15%;
+Left: auto;
+
 }
 
 .dropdown-menu>li>a{
