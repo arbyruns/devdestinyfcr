@@ -138,13 +138,14 @@ h1 {
 	max-width: 45%;
 }
 
-	.about-content {
-		display: inline-block;
-		color: #FFFFFF;
-		margin-left: 3%;
-		vertical-align: Bottom;
-		max-width: 46%;
-		overflow: hidden;
+.about-content {
+	display: inline-block;
+	color: #FFFFFF;
+	margin-left: 3%;
+	vertical-align: top;
+	max-width: 50%;
+	overflow: hidden;
+	text-overflow: ellipsis;
 	}
 
 .article-content {
