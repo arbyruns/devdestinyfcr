@@ -242,6 +242,9 @@ margin-top:0px;
 margin-bottom:0px;
 }
 
+.alert{
+margin-top:15px;
+}
 
 @media all and (max-width: 768px) {
 	#content-area {
