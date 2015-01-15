@@ -52,7 +52,7 @@ h1 {
 	vertical-align: middle;
 	text-align: center;
 	display: inline-block;
-	width: 59%;
+	width: 120%;
 	font-size: 1.3em;
 }
 #content-navbar a {
@@ -290,7 +290,7 @@ margin-top:15px;
 	}
 	#content-navbar {
 		display: block;
-		width: 130%;
+		width: 100%;
 		margin-top: 2%;
 	}
 	#content-navbar a {
